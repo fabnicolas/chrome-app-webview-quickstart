@@ -1,0 +1,13 @@
+{
+    "name": "ViStriker",
+    "description": "My first Chrome App.",
+    "version": "0.1",
+    "manifest_version": 2,
+    "app": {
+      "background": {
+        "scripts": ["background.js"]
+      }
+    },
+    "permissions": ["webview"],
+    "icons": { "16": "assets/calculator-16.png", "128": "assets/calculator-128.png" }
+  }
